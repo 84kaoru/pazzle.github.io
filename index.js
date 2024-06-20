@@ -123,6 +123,6 @@ img.onload = () => {
         }
     }
 
-    canvas.addEventListener('change', play_puzzle);
+    canvas.addEventListener('load', play_puzzle);
     ctx.drawImage(img, 0, 0, w, h);
 };
