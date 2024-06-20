@@ -122,7 +122,6 @@ img.onload = () => {
             ctx.fillText(num, j * (w / splitx) + 100, i * (h / splity) + 100);
         }
     }
-    input.addEventListener('change', play_pazzle);
-    //canvas.addEventListener('click', play_puzzle);
+    canvas.addEventListener('click', play_puzzle);
     ctx.drawImage(img, 0, 0, w, h);
 };
